@@ -347,6 +347,7 @@ freeze('$(MPY_DIR)/ports/stm32/boards/Passport/modules',
         'wallets/multisig_import.py',
         'wallets/multisig_json.py',
         'wallets/nunchuk.py',
+        'wallets/sentinel.py',
         'wallets/simple_bitcoin_wallet.py',
         'wallets/sparrow.py',
         'wallets/specter.py',
@@ -354,7 +355,8 @@ freeze('$(MPY_DIR)/ports/stm32/boards/Passport/modules',
         'wallets/utils.py',
         'wallets/vault.py',
         'wallets/wasabi.py',
-        'wallets/keeper.py'))
+        'wallets/keeper.py',
+        'wallets/xpub_wallet.py'))
 
 # Extensions
 freeze('$(MPY_DIR)/ports/stm32/boards/Passport/modules',
