@@ -74,11 +74,6 @@
  */
 #define UR_NETWORK_TESTNET 1
 
-/**
- * Maximum number of components that a `crypto-keypath` can have.
- */
-#define UR_MAX_PATH_COMPONENTS 4
-
 typedef enum {
   BTC,
 } UR_CoinType;
